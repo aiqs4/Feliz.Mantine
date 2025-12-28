@@ -1,0 +1,47 @@
+{
+  "name": "feliz.mantine",
+  "version": "0.1.0",
+  "description": "Feliz-style bindings for Mantine UI v8 - A fully featured React components library",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet build src/Feliz.Mantine/Feliz.Mantine.fsproj",
+    "pack": "dotnet pack src/Feliz.Mantine/Feliz.Mantine.fsproj",
+    "test": "echo \"Tests to be implemented\" && exit 0"
+  },
+  "keywords": [
+    "fsharp",
+    "fable",
+    "feliz",
+    "mantine",
+    "react",
+    "ui",
+    "components",
+    "bindings"
+  ],
+  "author": "Feliz.Mantine Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aiqs4/Feliz.Mantine.git"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@mantine/carousel": "8.3.10",
+    "@mantine/core": "8.3.10",
+    "@mantine/dates": "8.3.10",
+    "@mantine/dropzone": "8.3.10",
+    "@mantine/form": "8.3.10",
+    "@mantine/hooks": "8.3.10",
+    "@mantine/modals": "8.3.10",
+    "@mantine/notifications": "8.3.10",
+    "@mantine/nprogress": "8.3.10",
+    "@mantine/spotlight": "8.3.10",
+    "@mantine/tiptap": "8.3.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "fable-compiler-js": "^3.3.0",
+    "vite": "^6.0.5"
+  }
+}

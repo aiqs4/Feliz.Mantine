@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    
+    <!-- NuGet Package Metadata -->
+    <PackageId>Feliz.Mantine</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Feliz.Mantine Contributors</Authors>
+    <Description>Feliz-style bindings for Mantine UI v8 - A fully featured React components library</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/aiqs4/Feliz.Mantine</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aiqs4/Feliz.Mantine</RepositoryUrl>
+    <PackageTags>fsharp;fable;feliz;mantine;react;ui;components</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Interop.fs" />
+    <Compile Include="Core.fs" />
+    <Compile Include="Hooks.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="4.5.0" />
+    <PackageReference Include="Feliz" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>
